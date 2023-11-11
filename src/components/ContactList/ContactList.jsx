@@ -17,7 +17,7 @@ import {
   ContactItem,
   ButtonStyle,
   ContactNameBox,
-} from './ContactList.styled';
+} from './ContacList.styled';
 
 export const ContactList = () => {
   const isLoading = useSelector(selectIsLoading);
