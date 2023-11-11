@@ -16,7 +16,7 @@ export const BarLink = styled(NavLink)`
   transition: all 250ms linear;
 
   &.active {
-    background-color: #4abda7;
+    background-color: #0597f2;
     color: white;
   }
 

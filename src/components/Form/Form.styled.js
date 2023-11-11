@@ -5,6 +5,7 @@ export const Container = styled.div`
   max-width: 1280px;
   margin: 0 auto;
   padding: 20px;
+  align-items: center;
 `;
 export const FormTag = styled.form`
   display: flex;
@@ -23,7 +24,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   width: 455px;
   height: 30px;
-  border: 1px solid #4abda7;
+  border: 1px solid #049dd9;
   border-radius: 5px;
   padding: 2px 5px;
 `;
@@ -36,7 +37,7 @@ export const Button = styled.button`
   margin-top: 15px;
   border: 0px;
   border-radius: 5px;
-  background: #4abda7;
+  background: #049dd9;
   color: white;
 
   transition: all 200ms cubic-bezier(0.15, 0.52, 0.6, 0.69);

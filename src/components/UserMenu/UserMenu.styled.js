@@ -19,12 +19,12 @@ export const Button = styled.button`
 
   font-size: 15px;
   background-color: transparent;
-  border: 1px solid #4abda7;
+  border: 1px solid #0597f2;
   border-radius: 5px;
   transition: all 250ms linear;
   &:hover,
   &:focus {
-    background-color: #4abda7;
+    background-color: #0597f2;
     color: white;
     scale: 1.1;
   }

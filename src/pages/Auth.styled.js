@@ -26,10 +26,11 @@ export const Input = styled.input`
   height: 30px;
   padding: 3px 5px;
   border-radius: 5px;
-  border: 2px solid #4abda7;
+  border: 2px solid #0597f2;
   font-size: 15px;
   margin-top: 10px;
   transition: all 250ms linear;
+  align-items: center;
 
   &:active,
   &:focus {
@@ -41,7 +42,7 @@ export const Button = styled.button`
   width: 315px;
   height: 38px;
   margin-top: 10px;
-  background-color: #4abda7;
+  background-color: #0597f2;
   border: 0;
   border-radius: 5px;
   color: white;
@@ -56,5 +57,5 @@ export const Button = styled.button`
 
 export const Title = styled.h2`
   margin-bottom: 30px;
-  color: #4abda7;
+  color: #0597f2;
 `;

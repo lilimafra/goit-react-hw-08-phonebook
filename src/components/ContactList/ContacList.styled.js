@@ -60,11 +60,3 @@ export const ButtonStyle = styled.button`
     scale: 1.2;
   }
 `;
-
-// export const ButtonUpdate = styled.button`
-//   background-color: #4abda7;
-//   &:hover,
-//   :focus {
-//     scale: 1.2;
-//   }
-// `;
