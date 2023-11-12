@@ -6,16 +6,16 @@ export const Container = styled.div`
   justify-content: space-between;
 
   margin: 0 auto;
-  padding: 30px 50px;
+  padding: 0px 50px;
   max-width: 1280px;
 `;
 
 export const Wrapper = styled.div`
-  width: 100%;
+  width: 10%;
 `;
 
 export const Span = styled.span`
-  margin-left: 10px;
+  margin-left: 2px;
 `;
 
 export const Description = styled.div`

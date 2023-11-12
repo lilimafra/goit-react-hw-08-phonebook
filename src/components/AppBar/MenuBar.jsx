@@ -9,7 +9,7 @@ import { Container, Header } from './MenuBar.styled';
 export const MenuBar = () => {
   const loggedIn = useSelector(selectUserLoggedIn);
   return (
-    <div style={{ display: 'block', borderBottom: '1px solid teal' }}>
+    <div style={{ display: 'block', borderBottom: '1px solid #0597f2' }}>
       <Container>
         <Header>
           <Navigation />

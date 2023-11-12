@@ -22,7 +22,7 @@ export const ContactItem = styled.li`
     rgba(231, 218, 232, 1) 70%,
     rgba(224, 244, 243, 1) 99%
   ); */
-  border: 1px solid #4abda7;
+  border: 1px solid #0597f2;
   color: #000;
 
   border-radius: 5px;

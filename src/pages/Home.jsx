@@ -19,7 +19,7 @@ export const Home = () => {
 
           <List spacing="15" p={0}>
             <ListItem>
-              <ListIcon as={CheckCircleIcon} color="#4abda7" spacing={10} />
+              <ListIcon as={CheckCircleIcon} color="#0597f2" spacing={10} />
               <Span>Add new contacts</Span>
             </ListItem>
             {/* <ListItem>
@@ -27,15 +27,15 @@ export const Home = () => {
               <Span>Update existing contacts</Span>
             </ListItem> */}
             <ListItem>
-              <ListIcon as={CheckCircleIcon} color="#4abda7" />
+              <ListIcon as={CheckCircleIcon} color="#0597f2" />
               <Span>Delete your contacts</Span>
             </ListItem>
             <ListItem>
-              <ListIcon as={CheckCircleIcon} color="#4abda7" />
+              <ListIcon as={CheckCircleIcon} color="#0597f2" />
               <Span>Filter your contacts by key words</Span>
             </ListItem>
             <ListItem>
-              <ListIcon as={CheckCircleIcon} color="#4abda7" />
+              <ListIcon as={CheckCircleIcon} color="#0597f2" />
               <Span>
                 Your contacts are safe with our App: only you have access to
                 your PhoneBook
@@ -44,7 +44,7 @@ export const Home = () => {
           </List>
         </Description>
         <Wrapper>
-          <Image src="https://i.gifer.com/JUl.gif" alt="Phone" />
+          <Image src="https://i.gifer.com/7d25.gif" alt="Phone" />
         </Wrapper>
       </Container>
     </>

@@ -41,13 +41,13 @@ export const ContactList = () => {
               return (
                 <ContactItem key={id}>
                   <ContactNameBox>
-                    <BsFillPersonLinesFill style={{ color: '#4abda7' }} />
+                    <BsFillPersonLinesFill style={{ color: '#0597f2' }} />
                     {name} : {number}
                   </ContactNameBox>
                   <ButtonStyle onClick={() => dispatch(deleteContact(id))}>
                     <AiOutlineClose
                       style={{
-                        color: '#4abda7',
+                        color: '#0597f2',
                         width: '20px',
                         height: '20px',
                       }}
