@@ -13,15 +13,6 @@ const clearAuthHeader = () => {
   axios.defaults.headers.common.Authorization = '';
 };
 
-/*
- * POST @ /users/signup - Create a new user
- * Request body: {
-  "name": "Adrian Cross",
-  "email": "across@mail.com",
-  "password": "examplepwd12345"
-}
- * После успешной регистрации добавляем токен в HTTP-заголовок
- */
 export const register = createAsyncThunk(
   'auth/register',
   async (credentials, thunkAPI) => {
@@ -35,13 +26,6 @@ export const register = createAsyncThunk(
   }
 );
 
-// POST - /users/login - logon user
-// Request body
-//     {
-//   "email": "string",
-//   "password": "string"
-// }
-
 export const login = createAsyncThunk(
   'auth/login',
   async (credentials, thunkAPI) => {
@@ -54,9 +38,6 @@ export const login = createAsyncThunk(
     }
   }
 );
-
-// POST - USER LOGOUT - /users/logout
-// Authorization header  - The token issued to the current user.
 
 export const logout = createAsyncThunk(
   'auth/logout',

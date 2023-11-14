@@ -53,7 +53,7 @@ export const Register = () => {
       <Title>Register new account</Title>
       <Form onSubmit={handleSubmit}>
         <Label>
-          Login
+          NickName
           <Input type="text" name="name" onChange={handleChange} value={name} />
         </Label>
         <Label>

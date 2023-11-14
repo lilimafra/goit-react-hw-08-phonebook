@@ -32,7 +32,7 @@ export const ContactItem = styled.li`
   &:hover,
   :focus {
     box-shadow: 3px 3px 10px -1px rgba(219, 213, 213, 0.75);
-    background-color: rgba(74, 189, 167, 0.2);
+    background-color: #b0d6f5;
   }
   &:last-child {
     margin-bottom: 0;

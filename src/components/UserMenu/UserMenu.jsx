@@ -12,7 +12,7 @@ export const UserMenu = () => {
 
   return (
     <Menu>
-      <IconContext.Provider value={{ color: '#4abda7' }}>
+      <IconContext.Provider value={{ color: '#0597f2' }}>
         <FaUserCircle />
       </IconContext.Provider>
 
